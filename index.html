@@ -26,7 +26,7 @@
 <script src="/js/jquery-1.11.1.min.js"></script>
 
   <script>
-    var userDefinedSearchData = {"custom":true,"thisSearch":"https://www.baidu.com/s?wd=","thisSearchIcon":"url(https://www.baidu.com/favicon.ico)","hotStatus":true,"data":[{"name":"百度","img":"url(https://www.baidu.com/favicon.ico)","url":"https://www.baidu.com/s?wd="},{"name":"谷歌","img":"url(https://www.google.com/favicon.ico)","url":"https://www.google.com/search?q="}]};
+    var userDefinedSearchData = {"custom":false,"thisSearch":"https://www.baidu.com/s?wd=","thisSearchIcon":"url(https://www.baidu.com/favicon.ico)","hotStatus":true,"data":[{"name":"百度","img":"url(https://www.baidu.com/favicon.ico)","url":"https://www.baidu.com/s?wd="}]};
     var expandAll = true;
   </script>
   
@@ -95,49 +95,71 @@
       
       <li class="">
         
-          <a href="#测试页面" class="smooth">
+          <a href="#翻译" class="smooth">
             
             <i class="far fa-star"></i>
-            <span class="title">测试页面</span>
+            <span class="title">翻译</span>
           </a>
           
       </li>
       
       <li class="">
         
-          <a href="#常用工具" class="smooth">
+          <a href="#截图/录屏" class="smooth">
             
             <i class="far fa-star"></i>
-            <span class="title">常用工具</span>
+            <span class="title">截图/录屏</span>
           </a>
           
       </li>
       
-      <li class="expanded">
+      <li class="">
         
-        <a class="fas fa-angle-down" style="cursor: pointer;">
-          
-            <i class="fas fa-tools"></i>
-            <span class="title">其他工具</span>
+          <a href="#思维导图" class="smooth">
+            
+            <i class="far fa-star"></i>
+            <span class="title">思维导图</span>
           </a>
           
-          <ul style="display: block;">
+      </li>
+      
+      <li class="">
+        
+          <a href="#PPT" class="smooth">
             
-            <li>
-              <a href="#开发工具" class="smooth">
-                <i class="fas fa-tools"></i>
-                <span class="title">开发工具</span>
-              </a>
-            </li>
+            <i class="far fa-star"></i>
+            <span class="title">PPT</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+          <a href="#PDF" class="smooth">
             
-            <li>
-              <a href="#我的博客" class="smooth">
-                <i class="fas fa-blog"></i>
-                <span class="title">我的博客</span>
-              </a>
-            </li>
+            <i class="far fa-star"></i>
+            <span class="title">PDF</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+          <a href="#Excel" class="smooth">
             
-          </ul>
+            <i class="far fa-star"></i>
+            <span class="title">Excel</span>
+          </a>
+          
+      </li>
+      
+      <li class="">
+        
+          <a href="#格式转换" class="smooth">
+            
+            <i class="far fa-star"></i>
+            <span class="title">格式转换</span>
+          </a>
           
       </li>
       
@@ -222,20 +244,52 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="测试页面"></i>测试页面</h4>
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="翻译"></i>翻译</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('/child', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="/child">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://translate.alibaba.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://translate.alibaba.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/myblog.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/%E9%98%BF%E9%87%8C%E7%BF%BB%E8%AF%91.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Child Page</strong>
+            <strong>阿里翻译</strong>
           </a>
-          <p class="overflowClip_2">子页面测试</p>
+          <p class="overflowClip_2">使用便捷的翻译工具，免登录，支持一键文件翻译。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://deepl.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://deepl.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/deepl.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>DeepL</strong>
+          </a>
+          <p class="overflowClip_2">全世界最准确的翻译。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://immersivetranslate.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://immersivetranslate.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/immersivetranslate.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>沉浸式翻译</strong>
+          </a>
+          <p class="overflowClip_2">全网口碑炸裂的双语对照网页翻译插件。</p>
         </div>
       </div>
     </div>
@@ -251,36 +305,36 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用工具"></i>常用工具</h4>
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="截图/录屏"></i>截图/录屏</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://blog.hclonely.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.hclonely.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://wwuy.lanzoub.com/ie2YJ1cyx62j', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wwuy.lanzoub.com/ie2YJ1cyx62j">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/website1-logo.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/fascapture.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>HCLonely Blog</strong>
+            <strong>fascapture</strong>
           </a>
-          <p class="overflowClip_2">一个懒人的博客。</p>
+          <p class="overflowClip_2">集截图/录屏等诸多功能于一身，小巧免安装，用过以后就爱不释手。</p>
         </div>
       </div>
     </div>
   </div>
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://zh.snipaste.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://zh.snipaste.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/%E6%96%B9%E6%AD%A3logo.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/snipaste.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>snipaste</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">免费且功能强大的截图/贴图工具。</p>
         </div>
       </div>
     </div>
@@ -296,36 +350,36 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="开发工具"></i>开发工具</h4>
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="思维导图"></i>思维导图</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://excalidraw.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://excalidraw.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/Excalidraw.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>Excalidraw</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">开源Excalidraw手绘图白板工具，思维导图、流程图、头脑风暴、团队协作工具。</p>
         </div>
       </div>
     </div>
   </div>
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://app.amymind.com/mindmap/guide/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://app.amymind.com/mindmap/guide/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/AmyMind.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>AmyMind</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">基于AI驱动的思维导图工具，一句话画好思维导图。</p>
         </div>
       </div>
     </div>
@@ -338,20 +392,39 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="我的博客"></i>我的博客</h4>
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="PPT"></i>PPT</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://blog.hclonely.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.hclonely.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chatppt.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chatppt.cn/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/website-logo.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/ChatPPT.png" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>HCLonely Blog</strong>
+            <strong>ChatPPT</strong>
           </a>
-          <p class="overflowClip_2">一个懒人的博客。</p>
+          <p class="overflowClip_2">支持PPT/WPS插件，功能强大且丰富的指令式对话生成优美的PPT。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://gamma.app/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://gamma.app/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/Gamma.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Gamma</strong>
+          </a>
+          <p class="overflowClip_2">AI生成PPT。</p>
         </div>
       </div>
     </div>
@@ -361,6 +434,108 @@
 <br />
 
     
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="PDF"></i>PDF</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.ilovepdf.com/zh-cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ilovepdf.com/zh-cn">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/ilovepdf.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>ilovepdf</strong>
+          </a>
+          <p class="overflowClip_2">在线版免费PDF编辑工具，方便好用，功能强大，支持多种PDF编辑功能和格式转换功能等。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Excel"></i>Excel</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chatexcel.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chatexcel.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/chatexcel.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>chatexcel</strong>
+          </a>
+          <p class="overflowClip_2">清华大学出品的AI Excel工具，仅通过聊天来操控您的Excel表格。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
+    
+    
+    
+    
+    
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="格式转换"></i>格式转换</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.pcgeshi.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.pcgeshi.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%82.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>格式工厂</strong>
+          </a>
+          <p class="overflowClip_2">免费全能的格式转换工具，支持多种格式的视频、音频、图片、文档等格式转换。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://convertio.co/zh/document-converter/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://convertio.co/zh/document-converter/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/convertio.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>convertio</strong>
+          </a>
+          <p class="overflowClip_2">免费在线网页版，格式转换工具。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+
     
     
     
